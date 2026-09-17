@@ -2,8 +2,10 @@
 
 This public repository contains only notarized Say Halo update archives, release notes, and the signed Sparkle appcast. Application source, credentials, transcripts, settings, models, and private user data do not belong here.
 
-## Install Say Halo 0.8.6
+## Install Say Halo
 
-Users on 0.8.5 or earlier must install 0.8.6 manually once because those builds still trust the inherited Hex update feed. Download the notarized ZIP from the [Say Halo 0.8.6 release](https://github.com/fullstackaiautomation/say-halo-releases/releases/tag/v0.8.6), quit Say Halo, and replace `/Applications/Say Halo.app`.
+Download the newest notarized ZIP from the [latest release](https://github.com/agent-tg/say-halo/releases/latest), quit Say Halo, and replace `/Applications/Say Halo.app`.
 
-After 0.8.6 is installed, future releases are delivered through the public [Sparkle appcast](https://fullstackaiautomation.github.io/say-halo-releases/appcast.xml).
+## Updating from 0.8.12 or earlier
+
+Builds up to 0.8.12 check an update address on the retired `fullstackaiautomation.github.io` host, which stopped resolving when this GitHub account was renamed to `agent-tg`. Those installs cannot update themselves. Install 0.8.13 or newer manually once; after that, updates arrive automatically through the [Sparkle appcast](https://agent-tg.github.io/say-halo/appcast.xml).
