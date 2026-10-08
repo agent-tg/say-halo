@@ -3,6 +3,21 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.19</title>
+            <pubDate>Thu, 08 Oct 2026 13:16:24 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>0.8.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Say Halo 0.8.19 (build 106)
+
+- Final dictation and insertion testing is optional; finish Setup once required permissions, model, and input are ready.
+- Retain microphone test results for the tested input when reopening Setup.
+- Menu-bar controls now live in Permissions, with a link to macOS settings and guidance when the waveform is hidden.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.19/Say-Halo-0.8.19-build-106.zip" length="15577369" type="application/octet-stream" sparkle:edSignature="+UdbKp2HbgNriNBnVFYo6MvZifNBzV10N6Rs8oVrE7UlI06yrwdC+cErjb/y1tmB7pRPlsZ3kRWAKZZ+1dChBg=="/>
+        </item>
+        <item>
             <title>0.8.18</title>
             <pubDate>Thu, 08 Oct 2026 12:42:27 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -159,25 +174,6 @@ Your shortcuts, microphone selection, models, and personal settings stay the sam
   `1%`, and “negative one” → `-1`.
 ]]></description>
             <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.10/Say-Halo-0.8.10-build-97.zip" length="15240662" type="application/octet-stream" sparkle:edSignature="BM7VePX0CvtcptYAZdf29trWWzihJ3+zADDKGNJxQP2CcRUlWLki+1Tk4KLeuqRP626Ophd0M8HV8FIRR385Ag=="/>
-        </item>
-        <item>
-            <title>0.8.9</title>
-            <pubDate>Fri, 07 Aug 2026 12:43:37 -0500</pubDate>
-            <link>https://github.com/fullstackaiautomation/say-halo/releases/latest</link>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.9
-
-- Converts spoken numbers and percentages into compact text, including “two hundred and
-  twenty-three” → `223` and “ten percent” → `10%`.
-- Stops ordinary text edits from being silently learned as global replacements.
-- Keeps correction learning available through History's explicit Correct & Learn action, where the
-  proposed rules are shown before saving.
-- Preserves every user's private Replace words mappings during updates. Custom mappings remain on
-  that user's Mac and are never distributed with Say Halo.
-]]></description>
-            <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.9/Say-Halo-0.8.9-build-96.zip" length="15241665" type="application/octet-stream" sparkle:edSignature="1/haE0v3Jx1hycwUIMlBjShiiRpoZR/Hkj9zPXM4l9dJYzypGfb8ewR2JaNa9OCd/adKmhFXKGjptuLi0k+PBA=="/>
         </item>
     </channel>
 </rss>
