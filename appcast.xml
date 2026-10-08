@@ -3,6 +3,17 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.20</title>
+            <pubDate>Thu, 08 Oct 2026 13:41:57 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>0.8.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Correct menu-bar setup guidance on older macOS versions. Say Halo controls its icon in the app; Control Center on macOS 14/15 does not list third-party apps. Setup now explains crowded menu bars, MacBook camera notches, and hidden menu-manager items, with a link to Apple’s instructions.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.20/Say-Halo-0.8.20-build-107.zip" length="15579982" type="application/octet-stream" sparkle:edSignature="fG4qKTxA4QIvW/pWtlsF8p+j0lJt6jN0UzMBQMnyO9dwezVGOZvY6lZ9MH2ejklhBnD+SdMrwgKLvrFxRFHIAQ=="/>
+        </item>
+        <item>
             <title>0.8.19</title>
             <pubDate>Thu, 08 Oct 2026 13:16:24 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -158,22 +169,6 @@ Your shortcuts, microphone selection, models, and personal settings stay the sam
   captured audio and the selected input intact.
 ]]></description>
             <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.11/Say-Halo-0.8.11-build-98.zip" length="15256337" type="application/octet-stream" sparkle:edSignature="/Ej1S8UDrdr6ruY7ayZmczjeKufnoWhfUbMbMW6wOWB/MMXde7uyqcW435jFl90M6IasmpmC5fM+2vHZto49CA=="/>
-        </item>
-        <item>
-            <title>0.8.10</title>
-            <pubDate>Sun, 30 Aug 2026 14:14:33 -0500</pubDate>
-            <link>https://github.com/fullstackaiautomation/say-halo/releases/latest</link>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>0.8.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.10
-
-- Keeps a lone spoken “one” written as a word in conversational phrases such as “one thing,”
-  “this one,” and “last one.”
-- Continues converting clear numeric phrases, including “twenty-one” → `21`, “one percent” →
-  `1%`, and “negative one” → `-1`.
-]]></description>
-            <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.10/Say-Halo-0.8.10-build-97.zip" length="15240662" type="application/octet-stream" sparkle:edSignature="BM7VePX0CvtcptYAZdf29trWWzihJ3+zADDKGNJxQP2CcRUlWLki+1Tk4KLeuqRP626Ophd0M8HV8FIRR385Ag=="/>
         </item>
     </channel>
 </rss>
