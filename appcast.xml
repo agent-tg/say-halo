@@ -3,6 +3,23 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.16</title>
+            <pubDate>Thu, 08 Oct 2026 00:04:06 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>0.8.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.16
+
+This update adds **Watch setup tutorial** to the compact Setup screen. The one-minute video walks through permissions, model loading, microphone and shortcut checks, a practice transcription, and the manual Copy fallback.
+
+[Watch the setup tutorial](https://youtu.be/RGCBG8OjeGM). Open Setup from Settings or **Setup & Troubleshooting…** in the menu bar.
+
+Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later. Existing settings are retained.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.16/Say-Halo-0.8.16-build-103.zip" length="15567218" type="application/octet-stream" sparkle:edSignature="qRiFEeAJ/UUXnl7vYkyECSeMbdW4Y6HacUrM9RlnbpselpGaZB2/J7egxjnUEU6UIjQaUnsCHdndLaBsNMfMCw=="/>
+        </item>
+        <item>
             <title>0.8.15</title>
             <pubDate>Wed, 07 Oct 2026 23:25:21 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -157,41 +174,6 @@ Your shortcuts, microphone selection, models, and personal settings stay the sam
 Say Halo now pauses active music and video while recording, then resumes only media that Say Halo paused. Playback stays at its prior position instead of continuing silently under muted system audio.
 ]]></description>
             <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.7/Say-Halo-0.8.7-build-94.zip" length="15161683" type="application/octet-stream" sparkle:edSignature="yuUP/FF+Ke4pewaHlpjue9X4P3g5PVCZoU5xRvc4LtOXGO1hDLN1sLl5rg+gxm+NoO6Bx5eFMoipW3v2WiI5Bg=="/>
-        </item>
-        <item>
-            <title>0.8.6</title>
-            <pubDate>Thu, 30 Jul 2026 15:16:18 -0500</pubDate>
-            <link>https://github.com/fullstackaiautomation/say-halo/releases/latest</link>
-            <sparkle:version>93</sparkle:version>
-            <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.6
-
-Say Halo 0.8.6 moves updates to Say Halo-owned infrastructure and enables quiet automatic update
-checks and downloads through Sparkle.
-
-## Manual bridge installation
-
-Say Halo 0.8.5 and earlier still trust the inherited Hex update feed, so they cannot install this
-release automatically. Install 0.8.6 once by downloading the notarized ZIP from this release,
-quitting Say Halo, and replacing `/Applications/Say Halo.app` with the downloaded app.
-
-Your settings, models, transcription history, hotkeys, and macOS permission records are stored
-outside the application bundle and are not replaced.
-
-After 0.8.6 is installed, Say Halo checks its public Say Halo appcast automatically. Future updates
-can download quietly in the background and install when Say Halo quits or relaunches. The
-**Check for Updates** button remains available in Settings → About.
-
-## What changed
-
-- Replaced the inherited Hex feed and signing key with a Say Halo-specific Sparkle EdDSA key.
-- Moved notarized update assets and release notes to the public Say Halo release-only repository.
-- Enabled automatic checks and background downloads without system profiling.
-- Rebranded updater-facing About links for Say Halo.
-- Added a fail-closed local release publisher and automated feed/signature safety checks.
-]]></description>
-            <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.6/Say-Halo-0.8.6-build-93.zip" length="15125481" type="application/octet-stream" sparkle:edSignature="tGXvud+MsBXGSh5aYt/qvimVrk1HmyH06ljHYfMcyN7sjMlWbCmejM98vW12nVqN5zyjHmAiQEZRtMY4MgGPBg=="/>
         </item>
     </channel>
 </rss>
