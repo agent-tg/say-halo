@@ -3,6 +3,27 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.14</title>
+            <pubDate>Wed, 07 Oct 2026 22:58:22 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>0.8.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.14
+
+Say Halo now guides new users from first launch through their first dictation and paste. Open **Setup & Troubleshooting…** from the menu bar whenever you need help.
+
+- Check permissions, choose and prepare a speech model, and test your active microphone.
+- Test your current shortcut and choose clipboard insertion, without changing existing preferences.
+- Practice dictation, then test pasting in another app. Copy the result manually if the destination does not accept it.
+- Model downloads now show measured component progress where available and a separate preparation state. Retry after errors without deleting existing models.
+- Disconnected microphone choices clearly show the fallback device and a recovery action.
+
+Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later. Existing users keep their settings and can revisit Setup from the menu bar.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.14/Say-Halo-0.8.14-build-101.zip" length="15532166" type="application/octet-stream" sparkle:edSignature="4bGtINf0ZFakjEJ+M1TQTpXyrGfkYUboD7OdIfBOFA6nzVnGbuEe1rpri36mQre02M1mBuXQQOr2y8xKuc06Bw=="/>
+        </item>
+        <item>
             <title>0.8.13</title>
             <pubDate>Wed, 16 Sep 2026 22:57:04 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
