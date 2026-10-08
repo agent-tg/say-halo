@@ -3,6 +3,25 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.15</title>
+            <pubDate>Wed, 07 Oct 2026 23:25:21 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>0.8.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.15
+
+Setup is more compact, with shorter instructions and less scrolling. Find it below About in the settings sidebar, or choose **Setup & Troubleshooting…** from the menu bar.
+
+- Completed steps collapse and can reopen. Help appears when requested or when a step fails.
+- Record a practice sentence, test dictation in another app, and confirm whether the text appeared. Copy and troubleshooting are available if insertion fails.
+- Clipboard guidance follows your current settings. Existing microphone, shortcut, model, and clipboard preferences stay intact.
+
+Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.15/Say-Halo-0.8.15-build-102.zip" length="15566879" type="application/octet-stream" sparkle:edSignature="yDPfVFT/kIi7P1LgdFi9ICuKUawlg7obKJyR9+K17g51XH5S0SYY2+jK3qsXVtjSexxKeavikkkQ8Us5w3VPAA=="/>
+        </item>
+        <item>
             <title>0.8.14</title>
             <pubDate>Wed, 07 Oct 2026 22:58:22 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
