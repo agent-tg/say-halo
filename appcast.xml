@@ -3,6 +3,23 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.17</title>
+            <pubDate>Thu, 08 Oct 2026 12:26:24 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>0.8.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.17
+
+**Watch setup tutorial** now opens the new, clearer version of the one-minute Setup video. It walks through permissions, the speech model, microphone and shortcut checks, a practice sentence, and what to do if text doesn't appear in another app.
+
+[Watch the setup tutorial](https://youtu.be/9M0w5RP3Hko). Open Setup from Settings or **Setup & Troubleshooting…** in the menu bar.
+
+Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later. Existing settings are retained.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.17/Say-Halo-0.8.17-build-104.zip" length="15567214" type="application/octet-stream" sparkle:edSignature="+ZDKyCM4I8VdzxzezjKtp9CHNCCjI5Zeb7Ud856OZGvrt6eaf2w4z1WyBURVRw6AEBQklWPskhUKzPUX10SkCA=="/>
+        </item>
+        <item>
             <title>0.8.16</title>
             <pubDate>Thu, 08 Oct 2026 00:04:06 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -161,19 +178,6 @@ Your shortcuts, microphone selection, models, and personal settings stay the sam
 - Keeps the existing Pause Media setting and normal transcription workflow unchanged.
 ]]></description>
             <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.8/Say-Halo-0.8.8-build-95.zip" length="15168920" type="application/octet-stream" sparkle:edSignature="3pn46zpGW+OJw1cTcoAZgLXEC5CIhjHxxd0ZZODGIgzku2xvBeRsifpBhW2eezWdzUeg2tcn8WiRF2pJcphJAg=="/>
-        </item>
-        <item>
-            <title>0.8.7</title>
-            <pubDate>Sun, 02 Aug 2026 15:39:00 -0500</pubDate>
-            <link>https://github.com/fullstackaiautomation/say-halo/releases/latest</link>
-            <sparkle:version>94</sparkle:version>
-            <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.7
-
-Say Halo now pauses active music and video while recording, then resumes only media that Say Halo paused. Playback stays at its prior position instead of continuing silently under muted system audio.
-]]></description>
-            <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.7/Say-Halo-0.8.7-build-94.zip" length="15161683" type="application/octet-stream" sparkle:edSignature="yuUP/FF+Ke4pewaHlpjue9X4P3g5PVCZoU5xRvc4LtOXGO1hDLN1sLl5rg+gxm+NoO6Bx5eFMoipW3v2WiI5Bg=="/>
         </item>
     </channel>
 </rss>
