@@ -3,6 +3,23 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.22</title>
+            <pubDate>Mon, 12 Oct 2026 11:02:47 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>0.8.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Say Halo 0.8.22 improves isolation of left and right modifier shortcuts.
+
+- A shortcut assigned to Right or Left now requires a matching known modifier side. Events without side information no longer start or stop that side-specific shortcut.
+- Either continues to accept both sides. To keep Left Command paste and screenshot shortcuts separate from dictation, choose Right under Settings → Hot Key → Modifier side.
+- To keep the recording timer visible in full-screen apps, set macOS Automatically hide and show the menu bar to Never.
+
+This update preserves existing shortcut settings. It does not change Either to Right automatically.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.22/Say-Halo-0.8.22-build-109.zip" length="15582470" type="application/octet-stream" sparkle:edSignature="Rg6I2AXxMytZh9XdQ79Pr6RtZj0c++Km5HflVXzSIuK5SqTtRZF1/2Zq9CIZLjQDOB4aan9EItH7svqPcBttCQ=="/>
+        </item>
+        <item>
             <title>0.8.21</title>
             <pubDate>Mon, 12 Oct 2026 10:26:51 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -151,25 +168,6 @@ Automatic updates work again.
 Your shortcuts, microphone selection, models, and personal settings stay the same.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.13/Say-Halo-0.8.13-build-100.zip" length="15256724" type="application/octet-stream" sparkle:edSignature="N7UnKASO0D/nNc42wezKAhf0Il+v5dfquzhRYiDDZLWU6vikBO2j48+mwpdKkWXJPiZP3aYrz6upNRMw4TnvCg=="/>
-        </item>
-        <item>
-            <title>0.8.12</title>
-            <pubDate>Fri, 11 Sep 2026 02:36:53 -0500</pubDate>
-            <link>https://github.com/fullstackaiautomation/say-halo/releases/latest</link>
-            <sparkle:version>99</sparkle:version>
-            <sparkle:shortVersionString>0.8.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.12
-
-Recording feedback now lives in the macOS menu bar, freeing up your browser tabs and address bar.
-
-- See a white-and-blue live waveform and elapsed recording time in the menu bar.
-- Stop or cancel a recording directly from the Say Halo menu.
-- See quiet speech more clearly, with a steady capsule width and gentle transitions while processing.
-
-Your shortcuts, microphone selection, models, and personal settings stay the same.
-]]></description>
-            <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.12/Say-Halo-0.8.12-build-99.zip" length="15255680" type="application/octet-stream" sparkle:edSignature="Y13PO+ceca+PCCwH1sl3Ozn9VzHFih1/NUtbRNZBMKKM3PzXUlf5rIUGUK9o2QLRHUpLCjlyB+tfjfhPo8VdCw=="/>
         </item>
     </channel>
 </rss>
