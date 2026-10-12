@@ -3,6 +3,23 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.21</title>
+            <pubDate>Mon, 12 Oct 2026 10:26:51 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>0.8.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Say Halo 0.8.21 adds recovery controls to Setup's optional first dictation step.
+
+- Stop or cancel recordings started with your shortcut directly from step 6, including when the menu-bar icon is hidden.
+- Cancel transcription from the same step if processing is stuck.
+- The dictation step opens when recording or transcription starts.
+
+Your existing shortcut, settings, and speech models are preserved.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.21/Say-Halo-0.8.21-build-108.zip" length="15583937" type="application/octet-stream" sparkle:edSignature="/lt6WpW5ApuFG/QNfpD2DP5Ljoikzslg0wG1jOCt4TXkDjQugdfX0Kox5Ri4frVFIm2sCpVOSS1HZ4P/BmlRAQ=="/>
+        </item>
+        <item>
             <title>0.8.20</title>
             <pubDate>Thu, 08 Oct 2026 13:41:57 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -153,22 +170,6 @@ Recording feedback now lives in the macOS menu bar, freeing up your browser tabs
 Your shortcuts, microphone selection, models, and personal settings stay the same.
 ]]></description>
             <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.12/Say-Halo-0.8.12-build-99.zip" length="15255680" type="application/octet-stream" sparkle:edSignature="Y13PO+ceca+PCCwH1sl3Ozn9VzHFih1/NUtbRNZBMKKM3PzXUlf5rIUGUK9o2QLRHUpLCjlyB+tfjfhPo8VdCw=="/>
-        </item>
-        <item>
-            <title>0.8.11</title>
-            <pubDate>Thu, 03 Sep 2026 22:16:39 -0500</pubDate>
-            <link>https://github.com/fullstackaiautomation/say-halo/releases/latest</link>
-            <sparkle:version>98</sparkle:version>
-            <sparkle:shortVersionString>0.8.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.11
-
-- Adds **Reset Microphone** to the menu-bar drop-down and Microphone Selection settings so a stale
-  or disconnected input can be recovered without quitting Say Halo.
-- Safely waits until an active recording stops before rebuilding the microphone connection, keeping
-  captured audio and the selected input intact.
-]]></description>
-            <enclosure url="https://github.com/fullstackaiautomation/say-halo/releases/download/v0.8.11/Say-Halo-0.8.11-build-98.zip" length="15256337" type="application/octet-stream" sparkle:edSignature="/Ej1S8UDrdr6ruY7ayZmczjeKufnoWhfUbMbMW6wOWB/MMXde7uyqcW435jFl90M6IasmpmC5fM+2vHZto49CA=="/>
         </item>
     </channel>
 </rss>
