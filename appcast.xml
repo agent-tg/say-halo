@@ -3,6 +3,21 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.23</title>
+            <pubDate>Wed, 14 Oct 2026 11:56:42 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>0.8.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.23
+
+- Adds optional iCloud sync for word replacements, including learned corrections. Enable **Sync word replacements with iCloud** on each Mac using the same iCloud account.
+- Preserves offline edits and deletions, with status messages when iCloud is unavailable or storage is full.
+- Keeps microphone choices, shortcuts, transcription history, word removals, and output formatting on each Mac.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.23/Say-Halo-0.8.23-build-110.zip" length="15655503" type="application/octet-stream" sparkle:edSignature="jbPMBJqaPlCCPFx6gugIdWen3ebBMCmF02ZA7KZSNacz1I8GdRNIMOHTAleqv4eEcXt8lzxZe9hZ7v36/TvaCQ=="/>
+        </item>
+        <item>
             <title>0.8.22</title>
             <pubDate>Mon, 12 Oct 2026 11:02:47 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -150,24 +165,6 @@ Say Halo now guides new users from first launch through their first dictation an
 Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later. Existing users keep their settings and can revisit Setup from the menu bar.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.14/Say-Halo-0.8.14-build-101.zip" length="15532166" type="application/octet-stream" sparkle:edSignature="4bGtINf0ZFakjEJ+M1TQTpXyrGfkYUboD7OdIfBOFA6nzVnGbuEe1rpri36mQre02M1mBuXQQOr2y8xKuc06Bw=="/>
-        </item>
-        <item>
-            <title>0.8.13</title>
-            <pubDate>Wed, 16 Sep 2026 22:57:04 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>0.8.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.13
-
-Automatic updates work again.
-
-- Say Halo now checks for updates at its new home under the agent-tg GitHub account. Earlier versions pointed at an address that no longer exists, so this is a one-time manual install; every update after this arrives automatically.
-- The "View Releases" link in About points at the new releases page.
-
-Your shortcuts, microphone selection, models, and personal settings stay the same.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.13/Say-Halo-0.8.13-build-100.zip" length="15256724" type="application/octet-stream" sparkle:edSignature="N7UnKASO0D/nNc42wezKAhf0Il+v5dfquzhRYiDDZLWU6vikBO2j48+mwpdKkWXJPiZP3aYrz6upNRMw4TnvCg=="/>
         </item>
     </channel>
 </rss>
