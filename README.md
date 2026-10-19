@@ -6,7 +6,7 @@ These instructions apply to Say Halo 0.8.14 build 101 and later.
 
 ## Download and install
 
-1. Open [Say Halo's latest release](https://github.com/agent-tg/say-halo/releases/latest). Under **Assets**, download the **Say-Halo-0.8.14-build-101.zip** file. The current public download is [0.8.14 build 101 ZIP](https://github.com/agent-tg/say-halo/releases/download/v0.8.14/Say-Halo-0.8.14-build-101.zip). Do not download "Source code." The `say-halo-releases` repository is an archived compatibility feed.
+1. Open [Say Halo's latest release](https://github.com/agent-tg/say-halo/releases/latest). Under **Assets**, download the ZIP file whose name starts with **Say-Halo-**. Do not download "Source code." The `say-halo-releases` repository is an archived compatibility feed.
 2. Double-click the downloaded ZIP in Finder to extract **Say Halo.app**.
 3. Drag **Say Halo.app** into **Applications**, then open it there. Say Halo requires macOS 14 or later.
 4. On a new installation, **Setup** opens automatically. Follow its permission, speech model, microphone, shortcut, and clipboard steps.
