@@ -3,6 +3,26 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.27</title>
+            <pubDate>Tue, 20 Oct 2026 16:43:46 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>120</sparkle:version>
+            <sparkle:shortVersionString>0.8.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.27
+
+- A compact menu puts recording controls and microphone selection in one row. Start or stop with the circular control and choose an input directly from the menu.
+- See your last transcript and when it was created. Hover to preview more, then click anywhere on the row to copy the full text.
+- Save word replacements directly in the menu with From → To and the plus button, or press Enter. The saved count and Manage link sit beside Quick replace.
+- Microphone-health checks can retry a stopped recording connection once and show Reconnect if capture remains unavailable. Quiet pauses are treated as normal.
+- Downloaded updates appear as a clear install-and-restart row. Settings and Quit keep their standard keyboard shortcuts.
+- Cleaner text, a bright copy icon, a solid menu background, compact microphone options, and a right-aligned device name improve readability.
+
+Existing settings, saved word replacements, models, and permissions are preserved.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.27/Say-Halo-0.8.27-build-120.zip" length="15820099" type="application/octet-stream" sparkle:edSignature="0mUHHPCP3TeEKwtBo1dFIzdGFNeXr38c7+ppT0HmjiW2AriyP6D5ikS2HCsEMi97SRy1ZXy2cv1w3hAOFG6hCQ=="/>
+        </item>
+        <item>
             <title>0.8.25</title>
             <pubDate>Tue, 20 Oct 2026 13:10:20 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -139,23 +159,6 @@ Your existing shortcut, settings, and speech models are preserved.
 Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later. Existing settings are retained.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.17/Say-Halo-0.8.17-build-104.zip" length="15567214" type="application/octet-stream" sparkle:edSignature="+ZDKyCM4I8VdzxzezjKtp9CHNCCjI5Zeb7Ud856OZGvrt6eaf2w4z1WyBURVRw6AEBQklWPskhUKzPUX10SkCA=="/>
-        </item>
-        <item>
-            <title>0.8.16</title>
-            <pubDate>Thu, 08 Oct 2026 00:04:06 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>103</sparkle:version>
-            <sparkle:shortVersionString>0.8.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.16
-
-This update adds **Watch setup tutorial** to the compact Setup screen. The one-minute video walks through permissions, model loading, microphone and shortcut checks, a practice transcription, and the manual Copy fallback.
-
-[Watch the setup tutorial](https://youtu.be/RGCBG8OjeGM). Open Setup from Settings or **Setup & Troubleshooting…** in the menu bar.
-
-Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later. Existing settings are retained.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.16/Say-Halo-0.8.16-build-103.zip" length="15567218" type="application/octet-stream" sparkle:edSignature="qRiFEeAJ/UUXnl7vYkyECSeMbdW4Y6HacUrM9RlnbpselpGaZB2/J7egxjnUEU6UIjQaUnsCHdndLaBsNMfMCw=="/>
         </item>
     </channel>
 </rss>
