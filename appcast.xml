@@ -3,6 +3,23 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.25</title>
+            <pubDate>Tue, 20 Oct 2026 13:10:20 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>0.8.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.25
+
+- Choose **Add Word Replacement…** from the menu bar, enter **Heard** and **Replace with**, and save your preferred spelling for future dictation.
+- Assign an optional global shortcut in **Settings → Word Replacements** to open quick entry from any app.
+- Saving an existing match updates and enables its saved replacement.
+
+Your existing settings, replacements, and iCloud sync choice are preserved.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.25/Say-Halo-0.8.25-build-112.zip" length="15715803" type="application/octet-stream" sparkle:edSignature="gnl7w6SkqeyJU9+LHBgrIPoFM/Osd6+C3VrshWcRTlzGofFfO221fZsvldPfGGrv8TQWJuabkpN8dwyrWXAGAA=="/>
+        </item>
+        <item>
             <title>0.8.24</title>
             <pubDate>Wed, 14 Oct 2026 12:26:08 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -139,25 +156,6 @@ This update adds **Watch setup tutorial** to the compact Setup screen. The one-m
 Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later. Existing settings are retained.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.16/Say-Halo-0.8.16-build-103.zip" length="15567218" type="application/octet-stream" sparkle:edSignature="qRiFEeAJ/UUXnl7vYkyECSeMbdW4Y6HacUrM9RlnbpselpGaZB2/J7egxjnUEU6UIjQaUnsCHdndLaBsNMfMCw=="/>
-        </item>
-        <item>
-            <title>0.8.15</title>
-            <pubDate>Wed, 07 Oct 2026 23:25:21 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>102</sparkle:version>
-            <sparkle:shortVersionString>0.8.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.15
-
-Setup is more compact, with shorter instructions and less scrolling. Find it below About in the settings sidebar, or choose **Setup & Troubleshooting…** from the menu bar.
-
-- Completed steps collapse and can reopen. Help appears when requested or when a step fails.
-- Record a practice sentence, test dictation in another app, and confirm whether the text appeared. Copy and troubleshooting are available if insertion fails.
-- Clipboard guidance follows your current settings. Existing microphone, shortcut, model, and clipboard preferences stay intact.
-
-Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.15/Say-Halo-0.8.15-build-102.zip" length="15566879" type="application/octet-stream" sparkle:edSignature="yDPfVFT/kIi7P1LgdFi9ICuKUawlg7obKJyR9+K17g51XH5S0SYY2+jK3qsXVtjSexxKeavikkkQ8Us5w3VPAA=="/>
         </item>
     </channel>
 </rss>
