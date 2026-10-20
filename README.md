@@ -2,7 +2,7 @@
 
 This public repository contains notarized Say Halo downloads, release notes, and the signed Sparkle update feed. Application source and private user data are kept elsewhere.
 
-These instructions apply to Say Halo 0.8.14 build 101 and later.
+These instructions describe the current Say Halo release. Guided setup is available in 0.8.14 and later.
 
 ## Download and install
 
@@ -10,9 +10,9 @@ These instructions apply to Say Halo 0.8.14 build 101 and later.
 2. Double-click the downloaded ZIP in Finder to extract **Say Halo.app**.
 3. Drag **Say Halo.app** into **Applications**, then open it there. Say Halo requires macOS 14 or later.
 4. On a new installation, **Setup** opens automatically. Follow its permission, speech model, microphone, shortcut, and clipboard steps.
-5. Record a short practice sentence, then test your shortcut in a text field in another app. Return to Setup and confirm that the text appeared. If it did not, copy the transcription from Setup and paste it manually with Command-V, then review Accessibility and clipboard insertion.
+5. First dictation is optional; you can finish Setup once required permissions, model, and microphone are ready and capture is idle. To test, record a short practice sentence, then try your shortcut in a text field in another app. If text does not appear, copy the transcription from Setup and paste it manually with Command-V, then review Accessibility and clipboard insertion.
 
-Find Say Halo's waveform icon in the menu bar at the top of the screen. Choose **Setup & Troubleshooting...** whenever you need to revisit setup. Advanced preferences remain in **Settings...**.
+Find Say Halo's waveform icon in the menu bar at the top of the screen. Open **Settings…**, then choose **Setup** in the sidebar whenever you need to revisit setup.
 
 ## If Say Halo will not open
 
