@@ -3,6 +3,23 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.29</title>
+            <pubDate>Tue, 27 Oct 2026 12:53:57 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>0.8.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.29
+
+- New **Automatically check for updates** switch in Settings → General. It shows whether Say Halo keeps itself up to date.
+- Automatic updates are turned back on for every install. Some Macs had them switched off with no way to see it, so new versions never showed up on their own.
+- Say Halo now checks every 4 hours instead of once a day. New versions download in the background, and an Install row appears in the Say Halo menu when one is ready.
+
+Existing settings, saved word replacements, models, and permissions are preserved. You can turn automatic updates off again in Settings.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.29/Say-Halo-0.8.29-build-122.zip" length="15860608" type="application/octet-stream" sparkle:edSignature="NiDTMHgZiBMv3w2oJbek2Ocxpf08+4SKX/unLuH/wwjOPotmzZuamwjM6fO/XRpVEwNeOKgDfRAQuZtYBvZkBw=="/>
+        </item>
+        <item>
             <title>0.8.28</title>
             <pubDate>Tue, 27 Oct 2026 12:22:38 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -145,21 +162,6 @@ Your existing shortcut, settings, and speech models are preserved.
 - Menu-bar controls now live in Permissions, with a link to macOS settings and guidance when the waveform is hidden.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.19/Say-Halo-0.8.19-build-106.zip" length="15577369" type="application/octet-stream" sparkle:edSignature="+UdbKp2HbgNriNBnVFYo6MvZifNBzV10N6Rs8oVrE7UlI06yrwdC+cErjb/y1tmB7pRPlsZ3kRWAKZZ+1dChBg=="/>
-        </item>
-        <item>
-            <title>0.8.18</title>
-            <pubDate>Thu, 08 Oct 2026 12:42:27 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>0.8.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Say Halo 0.8.18 (build 105)
-
-- Show Menu Bar Icon controls in General settings and Setup, with automatic recovery during capture and processing.
-- Green Setup check when completion and live readiness agree; amber exclamation when setup needs attention.
-- Finish Setup checks current permissions, model and microphone readiness, with refreshed devices when returning to the app.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.18/Say-Halo-0.8.18-build-105.zip" length="15578662" type="application/octet-stream" sparkle:edSignature="39ELJ9RRdoU/iR7WldYtS0fMtVhQa53alE9jK8mgVzSRzm9b+MqgXInkYxMB74aQMYtbWfqxsrrCdJyEHdAMBA=="/>
         </item>
     </channel>
 </rss>
