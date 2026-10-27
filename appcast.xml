@@ -3,6 +3,24 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.28</title>
+            <pubDate>Tue, 27 Oct 2026 12:22:38 -0500</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>0.8.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.28
+
+- Fixes the microphone getting stuck after screen sharing or switching audio devices. Say Halo no longer sits at "Warming up…" or "Mic stopped" until you quit and reopen it.
+- If the microphone stops responding, Say Halo replaces it with a fresh connection within a few seconds. Reconnect works again instead of doing nothing.
+- A microphone that looks on but sends no sound is now detected and rebuilt before your next dictation.
+- As a last resort, Say Halo quietly restarts itself in the menu bar, after any dictation in progress finishes.
+
+Existing settings, saved word replacements, models, and permissions are preserved.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.28/Say-Halo-0.8.28-build-121.zip" length="15856596" type="application/octet-stream" sparkle:edSignature="8sGFa5nIg8hGRb/cQ3xyR9zQ0Q/Suf4DBCEO7bD81xXq+slALHy23f/FCb0opwHO6NQ1i/vr2MauC/YzQSYUCA=="/>
+        </item>
+        <item>
             <title>0.8.27</title>
             <pubDate>Tue, 20 Oct 2026 16:43:46 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -142,23 +160,6 @@ Your existing shortcut, settings, and speech models are preserved.
 - Finish Setup checks current permissions, model and microphone readiness, with refreshed devices when returning to the app.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.18/Say-Halo-0.8.18-build-105.zip" length="15578662" type="application/octet-stream" sparkle:edSignature="39ELJ9RRdoU/iR7WldYtS0fMtVhQa53alE9jK8mgVzSRzm9b+MqgXInkYxMB74aQMYtbWfqxsrrCdJyEHdAMBA=="/>
-        </item>
-        <item>
-            <title>0.8.17</title>
-            <pubDate>Thu, 08 Oct 2026 12:26:24 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>104</sparkle:version>
-            <sparkle:shortVersionString>0.8.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.17
-
-**Watch setup tutorial** now opens the new, clearer version of the one-minute Setup video. It walks through permissions, the speech model, microphone and shortcut checks, a practice sentence, and what to do if text doesn't appear in another app.
-
-[Watch the setup tutorial](https://youtu.be/9M0w5RP3Hko). Open Setup from Settings or **Setup & Troubleshooting…** in the menu bar.
-
-Download the ZIP under Assets, extract it, and move **Say Halo.app** into **Applications**. Requires macOS 14 or later. Existing settings are retained.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.17/Say-Halo-0.8.17-build-104.zip" length="15567214" type="application/octet-stream" sparkle:edSignature="+ZDKyCM4I8VdzxzezjKtp9CHNCCjI5Zeb7Ud856OZGvrt6eaf2w4z1WyBURVRw6AEBQklWPskhUKzPUX10SkCA=="/>
         </item>
     </channel>
 </rss>
