@@ -28,6 +28,6 @@ Model setup can include downloading, compiling, and loading. Download progress a
 
 ## Updating from 0.8.12 or earlier
 
-Versions through 0.8.12 use an update address on the retired `fullstackaiautomation.github.io` host. Install the current release manually once. Version 0.8.13 and later receive updates through the [Sparkle appcast](https://agent-tg.github.io/say-halo/appcast.xml).
+Versions through 0.8.12 use an update address on the retired `fullstackaiautomation.github.io` host. Install the current release manually once. Version 0.8.13 and later receive updates through the [Sparkle appcast](https://agent-tg.github.io/say-halo/appcast.xml). From 0.8.29, **Settings → General → Automatically check for updates** controls this. It is on by default, checks every 4 hours, and shows an Install row in the Say Halo menu when an update is ready.
 
 If you already have Say Halo installed, quit it before replacing the app in Applications. Your settings and downloaded models stay in place.
