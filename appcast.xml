@@ -3,6 +3,24 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.30</title>
+            <pubDate>Thu, 12 Nov 2026 15:50:54 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>123</sparkle:version>
+            <sparkle:shortVersionString>0.8.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.30
+
+- Honor saved word replacements such as “11 Labs” → “Eleven Labs,” including when speech recognition spells out the number.
+- Keep paused browser videos paused when dictation ends.
+- Temporarily mute volume when active playback cannot be confirmed, including during browser calls.
+- Avoid reopening a closed music player during recording cleanup.
+- Preserve your existing recording and audio settings.
+
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.30/Say-Halo-0.8.30-build-123.zip" length="15866796" type="application/octet-stream" sparkle:edSignature="fVGh7Msgz235Nkw4hzPBrL60fVAEOlE+tH04ysWwiPuEv14yifsb4rCuE8e05fiecvhFBbwf7aD+j0giNomXAA=="/>
+        </item>
+        <item>
             <title>0.8.29</title>
             <pubDate>Tue, 27 Oct 2026 12:53:57 -0500</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -147,21 +165,6 @@ Your existing shortcut, settings, and speech models are preserved.
             <description sparkle:format="markdown"><![CDATA[Correct menu-bar setup guidance on older macOS versions. Say Halo controls its icon in the app; Control Center on macOS 14/15 does not list third-party apps. Setup now explains crowded menu bars, MacBook camera notches, and hidden menu-manager items, with a link to Apple’s instructions.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.20/Say-Halo-0.8.20-build-107.zip" length="15579982" type="application/octet-stream" sparkle:edSignature="fG4qKTxA4QIvW/pWtlsF8p+j0lJt6jN0UzMBQMnyO9dwezVGOZvY6lZ9MH2ejklhBnD+SdMrwgKLvrFxRFHIAQ=="/>
-        </item>
-        <item>
-            <title>0.8.19</title>
-            <pubDate>Thu, 08 Oct 2026 13:16:24 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>106</sparkle:version>
-            <sparkle:shortVersionString>0.8.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Say Halo 0.8.19 (build 106)
-
-- Final dictation and insertion testing is optional; finish Setup once required permissions, model, and input are ready.
-- Retain microphone test results for the tested input when reopening Setup.
-- Menu-bar controls now live in Permissions, with a link to macOS settings and guidance when the waveform is hidden.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.19/Say-Halo-0.8.19-build-106.zip" length="15577369" type="application/octet-stream" sparkle:edSignature="+UdbKp2HbgNriNBnVFYo6MvZifNBzV10N6Rs8oVrE7UlI06yrwdC+cErjb/y1tmB7pRPlsZ3kRWAKZZ+1dChBg=="/>
         </item>
     </channel>
 </rss>
