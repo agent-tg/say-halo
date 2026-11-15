@@ -3,6 +3,19 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.31</title>
+            <pubDate>Sun, 15 Nov 2026 13:23:15 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>124</sparkle:version>
+            <sparkle:shortVersionString>0.8.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.31
+
+- Fully silence headphones and other outputs while recording when Say Halo mutes instead of pausing. Your earlier mute setting and volume come back when you stop.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.31/Say-Halo-0.8.31-build-124.zip" length="15867840" type="application/octet-stream" sparkle:edSignature="63AO30J/JFKrFZBrnAPb7PT7P/+CSlYCiVJeviWJ9Xe7YTHz/wfctQN35iUzJimORB35vREXO7J3YVm3wzrPDA=="/>
+        </item>
+        <item>
             <title>0.8.30</title>
             <pubDate>Thu, 12 Nov 2026 15:50:54 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -154,17 +167,6 @@ This update preserves existing shortcut settings. It does not change Either to R
 Your existing shortcut, settings, and speech models are preserved.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.21/Say-Halo-0.8.21-build-108.zip" length="15583937" type="application/octet-stream" sparkle:edSignature="/lt6WpW5ApuFG/QNfpD2DP5Ljoikzslg0wG1jOCt4TXkDjQugdfX0Kox5Ri4frVFIm2sCpVOSS1HZ4P/BmlRAQ=="/>
-        </item>
-        <item>
-            <title>0.8.20</title>
-            <pubDate>Thu, 08 Oct 2026 13:41:57 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>107</sparkle:version>
-            <sparkle:shortVersionString>0.8.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Correct menu-bar setup guidance on older macOS versions. Say Halo controls its icon in the app; Control Center on macOS 14/15 does not list third-party apps. Setup now explains crowded menu bars, MacBook camera notches, and hidden menu-manager items, with a link to Apple’s instructions.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.20/Say-Halo-0.8.20-build-107.zip" length="15579982" type="application/octet-stream" sparkle:edSignature="fG4qKTxA4QIvW/pWtlsF8p+j0lJt6jN0UzMBQMnyO9dwezVGOZvY6lZ9MH2ejklhBnD+SdMrwgKLvrFxRFHIAQ=="/>
         </item>
     </channel>
 </rss>
