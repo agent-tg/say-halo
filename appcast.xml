@@ -3,6 +3,19 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.32</title>
+            <pubDate>Mon, 16 Nov 2026 09:59:40 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>125</sparkle:version>
+            <sparkle:shortVersionString>0.8.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.32
+
+- Pause Media works with browsers again. SoundCloud, YouTube and other Chrome or Safari audio now pauses while you record and resumes when you stop, instead of only being muted.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.32/Say-Halo-0.8.32-build-125.zip" length="15895451" type="application/octet-stream" sparkle:edSignature="BY7mhv7OGoTtEdGvo0Mm3Le1YhVWQ0iSu5TxmhINUrNo2tj11BU506OXGQanvmk4JuLThUWV8WJa/QvhnrEuBQ=="/>
+        </item>
+        <item>
             <title>0.8.31</title>
             <pubDate>Sun, 15 Nov 2026 13:23:15 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -150,23 +163,6 @@ Your existing settings, replacements, and iCloud sync choice are preserved.
 This update preserves existing shortcut settings. It does not change Either to Right automatically.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.22/Say-Halo-0.8.22-build-109.zip" length="15582470" type="application/octet-stream" sparkle:edSignature="Rg6I2AXxMytZh9XdQ79Pr6RtZj0c++Km5HflVXzSIuK5SqTtRZF1/2Zq9CIZLjQDOB4aan9EItH7svqPcBttCQ=="/>
-        </item>
-        <item>
-            <title>0.8.21</title>
-            <pubDate>Mon, 12 Oct 2026 10:26:51 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>108</sparkle:version>
-            <sparkle:shortVersionString>0.8.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Say Halo 0.8.21 adds recovery controls to Setup's optional first dictation step.
-
-- Stop or cancel recordings started with your shortcut directly from step 6, including when the menu-bar icon is hidden.
-- Cancel transcription from the same step if processing is stuck.
-- The dictation step opens when recording or transcription starts.
-
-Your existing shortcut, settings, and speech models are preserved.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.21/Say-Halo-0.8.21-build-108.zip" length="15583937" type="application/octet-stream" sparkle:edSignature="/lt6WpW5ApuFG/QNfpD2DP5Ljoikzslg0wG1jOCt4TXkDjQugdfX0Kox5Ri4frVFIm2sCpVOSS1HZ4P/BmlRAQ=="/>
         </item>
     </channel>
 </rss>
