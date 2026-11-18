@@ -3,6 +3,24 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.33</title>
+            <pubDate>Wed, 18 Nov 2026 02:41:24 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>126</sparkle:version>
+            <sparkle:shortVersionString>0.8.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.33
+
+- The first time you open Say Halo, Setup walks you through one step at a time.
+- Input Monitoring is no longer required.
+- Until Accessibility is turned on, your dictation is copied to the clipboard and a "Copied" notice tells you so. Paste it wherever you need it.
+- Settings now has four pages: General, History, Replace and Setup.
+- The Replace list shows your newest replacements first, and its controls stay in reach while you scroll.
+- Shortcuts show key names, like "⌥ Option", instead of symbols alone.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.33/Say-Halo-0.8.33-build-126.zip" length="15943923" type="application/octet-stream" sparkle:edSignature="OhAeOVGe53+H9gkcZpiR7sHt05w4ehZlLfAU5jVKUop/pOnvURdjEsQxAmpVo974ZUde+yMIl9J6m7T3ulUDCQ=="/>
+        </item>
+        <item>
             <title>0.8.32</title>
             <pubDate>Mon, 16 Nov 2026 09:59:40 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -146,23 +164,6 @@ Your existing settings, replacements, and iCloud sync choice are preserved.
 - Keeps microphone choices, shortcuts, transcription history, word removals, and output formatting on each Mac.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.23/Say-Halo-0.8.23-build-110.zip" length="15655503" type="application/octet-stream" sparkle:edSignature="jbPMBJqaPlCCPFx6gugIdWen3ebBMCmF02ZA7KZSNacz1I8GdRNIMOHTAleqv4eEcXt8lzxZe9hZ7v36/TvaCQ=="/>
-        </item>
-        <item>
-            <title>0.8.22</title>
-            <pubDate>Mon, 12 Oct 2026 11:02:47 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>109</sparkle:version>
-            <sparkle:shortVersionString>0.8.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Say Halo 0.8.22 improves isolation of left and right modifier shortcuts.
-
-- A shortcut assigned to Right or Left now requires a matching known modifier side. Events without side information no longer start or stop that side-specific shortcut.
-- Either continues to accept both sides. To keep Left Command paste and screenshot shortcuts separate from dictation, choose Right under Settings → Hot Key → Modifier side.
-- To keep the recording timer visible in full-screen apps, set macOS Automatically hide and show the menu bar to Never.
-
-This update preserves existing shortcut settings. It does not change Either to Right automatically.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.22/Say-Halo-0.8.22-build-109.zip" length="15582470" type="application/octet-stream" sparkle:edSignature="Rg6I2AXxMytZh9XdQ79Pr6RtZj0c++Km5HflVXzSIuK5SqTtRZF1/2Zq9CIZLjQDOB4aan9EItH7svqPcBttCQ=="/>
         </item>
     </channel>
 </rss>
