@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download Say Halo for Mac. Speak to write, with speech-to-text on your Mac.">
+  <link rel="canonical" href="https://agent-tg.github.io/say-halo/">
+  <title>Say Halo | Dictation for Mac</title>
+  <style>
+    :root { color-scheme: light; font: 18px/1.6 system-ui, sans-serif; color: #17283b; background: #f7fbff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main, footer { width: min(100% - 40px, 760px); margin: auto; }
+    main { padding: 52px 0 24px; }
+    h1 { font-size: clamp(2.5rem, 9vw, 4rem); line-height: 1.1; margin: 12px 0; letter-spacing: -.04em; }
+    h2 { font-size: 1.4rem; line-height: 1.3; margin: 0 0 16px; }
+    p { margin: 0 0 16px; }
+    a { color: #12509a; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #17283b; outline-offset: 4px; }
+    .intro { font-size: 1.25rem; }
+    .download { display: inline-block; background: #12509a; color: white; border-radius: 10px; padding: 12px 22px; font-weight: 650; text-decoration: none; margin: 8px 0; }
+    .detail { font-size: .9rem; color: #425469; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 28px 0 40px; }
+    section { padding: 28px; margin: 20px 0; border: 1px solid #ccdbea; border-radius: 16px; background: white; scroll-margin-top: 24px; }
+    ol, ul { padding-left: 24px; margin-bottom: 0; }
+    li { margin: 12px 0; }
+    footer { padding: 0 0 36px; font-size: .9rem; }
+    .skip { position: absolute; top: -80px; left: 20px; background: white; padding: 8px; }
+    .skip:focus { top: 8px; }
+    @media (max-width: 480px) { main { padding-top: 32px; } section { padding: 20px; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <main id="main">
+    <p>Dictation for Mac</p>
+    <h1>Say Halo</h1>
+    <p class="intro">Speak to write. Say Halo turns your voice into text on your Mac.</p>
+    <a class="download" href="https://github.com/agent-tg/say-halo/releases/download/v0.8.33/Say-Halo-0.8.33-build-126.zip">Download for Mac</a>
+    <p class="detail">Version 0.8.33 · macOS 14 or later · Apple silicon and Intel</p>
+    <nav aria-label="On this page">
+      <a href="#install">Install</a>
+      <a href="#setup">First dictation</a>
+      <a href="#privacy">Privacy</a>
+      <a href="https://github.com/agent-tg/say-halo/releases">Release notes</a>
+    </nav>
+    <section id="install" aria-labelledby="install-title">
+      <h2 id="install-title">Install Say Halo</h2>
+      <ol>
+        <li>Download the app with the button above. Double-click the ZIP in Finder to open it.</li>
+        <li>Drag <strong>Say Halo.app</strong> into <strong>Applications</strong>, then open it there.</li>
+        <li>Setup opens on your first launch. Follow each step in the app.</li>
+      </ol>
+      <p class="detail">Already installed? Quit Say Halo before replacing it. Your settings and downloaded speech models stay in place.</p>
+    </section>
+    <section id="setup" aria-labelledby="setup-title">
+      <h2 id="setup-title">Try your first dictation</h2>
+      <p>Setup helps you download a speech model, test your microphone and choose a shortcut. The model needs an internet connection to download.</p>
+      <ul>
+        <li><strong>Microphone</strong> lets Say Halo hear you.</li>
+        <li><strong>Accessibility</strong> is needed for the shortcut, automatic text insertion and Finish Setup.</li>
+        <li><strong>Input Monitoring</strong> is offered only if the shortcut test cannot hear your keys.</li>
+      </ul>
+      <p>After allowing Accessibility, click inside a text box in another app and try the shortcut shown in Setup.</p>
+      <p>Want to try recording first? In Setup, open <strong>First dictation (optional)</strong> and choose <strong>Record practice</strong>. Stop the recording and wait for the text. Open <strong>Troubleshooting</strong>, choose <strong>Copy transcript</strong>, then paste it into another app with Command-V. This works without Accessibility, but does not finish setup or test the shortcut.</p>
+      <p class="detail">To return to Setup, click Say Halo's waveform icon in the menu bar, choose Settings, then Setup.</p>
+    </section>
+    <section id="privacy" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">Your voice and text</h2>
+      <p>Speech-to-text runs on your Mac. By default, History saves the text and audio of your dictations on your Mac. You can turn History off in Settings.</p>
+      <p>Inserting text uses your clipboard. The app you paste into handles that text under its own privacy rules.</p>
+      <p>Speech model downloads and app updates use the internet. This page has no analytics, cookies, forms or third-party scripts.</p>
+    </section>
+    <section aria-labelledby="help-title">
+      <h2 id="help-title">If Say Halo will not open</h2>
+      <p>If macOS says it cannot verify the app is free of malware, stop and report the message, your macOS version and your Say Halo version to the person who gave you the app. Keep the download for diagnosis. Leave macOS security turned on.</p>
+      <p>Installed version 0.8.12 or earlier? Download the current app once. Later versions use Say Halo's automatic updater.</p>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/agent-tg/say-halo">Downloads and support notes</a>
+    <p>Built on <a href="https://github.com/kitlangton/Hex">Hex</a> by Kit Langton, under the MIT license.</p>
+  </footer>
+</body>
+</html>

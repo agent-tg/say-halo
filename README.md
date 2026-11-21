@@ -2,7 +2,7 @@
 
 This public repository contains notarized Say Halo downloads, release notes, and the signed Sparkle update feed. Application source and private user data are kept elsewhere.
 
-These instructions describe the current Say Halo release. Guided setup is available in 0.8.14 and later.
+Download the app and read the short setup guide at [Say Halo for Mac](https://agent-tg.github.io/say-halo/). These instructions describe the current Say Halo release.
 
 ## Download and install
 
@@ -10,7 +10,7 @@ These instructions describe the current Say Halo release. Guided setup is availa
 2. Double-click the downloaded ZIP in Finder to extract **Say Halo.app**.
 3. Drag **Say Halo.app** into **Applications**, then open it there. Say Halo requires macOS 14 or later.
 4. On a new installation, **Setup** opens automatically. Follow its permission, speech model, microphone, shortcut, and clipboard steps.
-5. First dictation is optional; you can finish Setup once required permissions, model, and microphone are ready and capture is idle. To test, record a short practice sentence, then try your shortcut in a text field in another app. If text does not appear, copy the transcription from Setup and paste it manually with Command-V, then review Accessibility and clipboard insertion.
+5. Accessibility is needed for the shortcut, automatic insertion and Finish Setup. To try recording without it, open **First dictation (optional)** in Setup, choose **Record practice**, then stop and wait for the text. Open **Troubleshooting**, choose **Copy transcript**, and paste into another app with Command-V. This practice does not finish setup or test the shortcut.
 
 Find Say Halo's waveform icon in the menu bar at the top of the screen. Open **Settings…**, then choose **Setup** in the sidebar whenever you need to revisit setup.
 
@@ -20,7 +20,7 @@ Launch problems happen before in-app Setup can help. If macOS says it cannot ver
 
 ## Setup notes
 
-Allow Microphone for recording, Input Monitoring for the global shortcut, and Accessibility for inserting text in other apps. Setup checks the actual permission status again when you return from System Settings. It does not require Apple's Speech Recognition permission because transcription runs locally.
+Allow Microphone for recording. Accessibility is needed for the shortcut, automatic text insertion and Finish Setup. Without it, use Record practice and Copy transcript in Setup as described above. Input Monitoring is offered only if the shortcut test cannot hear your keys. Setup checks the actual permission status again when you return from System Settings. It does not require Apple's Speech Recognition permission because transcription runs locally.
 
 Model setup can include downloading, compiling, and loading. Download progress applies to the current component and can restart for the next one; it is not an overall model percentage. Preparing may show a spinner without a percentage. Retry after an error; keep existing models.
 
