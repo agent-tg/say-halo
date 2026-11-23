@@ -3,6 +3,21 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.34</title>
+            <pubDate>Mon, 23 Nov 2026 16:07:55 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>0.8.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.34
+
+- If a dictation comes back with no words, the menu bar now says "No speech heard" instead of doing nothing.
+- If the microphone was silent, it says "Mic was silent. Check your input."
+- Say Halo keeps the audio from your last 10 empty dictations on your Mac so problems can be diagnosed.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.34/Say-Halo-0.8.34-build-127.zip" length="15982110" type="application/octet-stream" sparkle:edSignature="1n3/TfrcKcYjIX8gFBlqfN094l7CfoCrICup+eSBhR2Uy3X76bm0A6oPiIe5iQHoGa5YsfFo7KNHChHhusI7DQ=="/>
+        </item>
+        <item>
             <title>0.8.33</title>
             <pubDate>Wed, 18 Nov 2026 02:41:24 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -149,21 +164,6 @@ Your existing settings, replacements, and iCloud sync choice are preserved.
 - Your existing sync choice and word replacements are preserved when updating.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.24/Say-Halo-0.8.24-build-111.zip" length="15658350" type="application/octet-stream" sparkle:edSignature="EqDfcamYSdxiNJHaf0xayiHwRQQKoJCJ+VfnCMCxS1zJGPJ2dzDYLmphOVl9jWKpzIVO4tfuLCJHBCidGUt0BA=="/>
-        </item>
-        <item>
-            <title>0.8.23</title>
-            <pubDate>Wed, 14 Oct 2026 11:56:42 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>110</sparkle:version>
-            <sparkle:shortVersionString>0.8.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.23
-
-- Adds optional iCloud sync for word replacements, including learned corrections. Enable **Sync word replacements with iCloud** on each Mac using the same iCloud account.
-- Preserves offline edits and deletions, with status messages when iCloud is unavailable or storage is full.
-- Keeps microphone choices, shortcuts, transcription history, word removals, and output formatting on each Mac.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.23/Say-Halo-0.8.23-build-110.zip" length="15655503" type="application/octet-stream" sparkle:edSignature="jbPMBJqaPlCCPFx6gugIdWen3ebBMCmF02ZA7KZSNacz1I8GdRNIMOHTAleqv4eEcXt8lzxZe9hZ7v36/TvaCQ=="/>
         </item>
     </channel>
 </rss>
