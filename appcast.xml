@@ -3,6 +3,20 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.37</title>
+            <pubDate>Mon, 23 Nov 2026 17:43:44 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>130</sparkle:version>
+            <sparkle:shortVersionString>0.8.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.37
+
+- Empty dictations are no longer kept when "save history" is off, and Delete All now removes them too.
+- Your shortcut key works in more situations, including before Accessibility is turned on.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.37/Say-Halo-0.8.37-build-130.zip" length="16008427" type="application/octet-stream" sparkle:edSignature="kPOmH/8bMqzMoRFb0vNVvOT2MRZGXpd7N1v0x5681OH0WsqxRCBynW3xLQuAIHlIJChvpYIPBNzlQujzVrovDw=="/>
+        </item>
+        <item>
             <title>0.8.36</title>
             <pubDate>Mon, 23 Nov 2026 17:18:23 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -140,26 +154,6 @@ Existing settings, saved word replacements, models, and permissions are preserve
 Existing settings, saved word replacements, models, and permissions are preserved.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.28/Say-Halo-0.8.28-build-121.zip" length="15856596" type="application/octet-stream" sparkle:edSignature="8sGFa5nIg8hGRb/cQ3xyR9zQ0Q/Suf4DBCEO7bD81xXq+slALHy23f/FCb0opwHO6NQ1i/vr2MauC/YzQSYUCA=="/>
-        </item>
-        <item>
-            <title>0.8.27</title>
-            <pubDate>Tue, 20 Oct 2026 16:43:46 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>120</sparkle:version>
-            <sparkle:shortVersionString>0.8.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.27
-
-- A compact menu puts recording controls and microphone selection in one row. Start or stop with the circular control and choose an input directly from the menu.
-- See your last transcript and when it was created. Hover to preview more, then click anywhere on the row to copy the full text.
-- Save word replacements directly in the menu with From → To and the plus button, or press Enter. The saved count and Manage link sit beside Quick replace.
-- Microphone-health checks can retry a stopped recording connection once and show Reconnect if capture remains unavailable. Quiet pauses are treated as normal.
-- Downloaded updates appear as a clear install-and-restart row. Settings and Quit keep their standard keyboard shortcuts.
-- Cleaner text, a bright copy icon, a solid menu background, compact microphone options, and a right-aligned device name improve readability.
-
-Existing settings, saved word replacements, models, and permissions are preserved.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.27/Say-Halo-0.8.27-build-120.zip" length="15820099" type="application/octet-stream" sparkle:edSignature="0mUHHPCP3TeEKwtBo1dFIzdGFNeXr38c7+ppT0HmjiW2AriyP6D5ikS2HCsEMi97SRy1ZXy2cv1w3hAOFG6hCQ=="/>
         </item>
     </channel>
 </rss>
