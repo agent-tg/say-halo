@@ -3,6 +3,20 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.35</title>
+            <pubDate>Mon, 23 Nov 2026 16:44:08 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>128</sparkle:version>
+            <sparkle:shortVersionString>0.8.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.35
+
+- With "Tap to toggle recording" on, every press of your shortcut key now starts or stops recording, however long you hold it. Before, a press held a little too long was ignored, so the next press started a silent recording.
+- Holding the shortcut key no longer risks stopping and restarting a recording.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.35/Say-Halo-0.8.35-build-128.zip" length="15983761" type="application/octet-stream" sparkle:edSignature="mR/LqBJVxpuTJnGYIbkdHttxdlRpOFSiBxNFT9mkpsQfvhgGvRl8AFOu6MDjRVXSMV5mTWAPR2jZ2BV58w2SBw=="/>
+        </item>
+        <item>
             <title>0.8.34</title>
             <pubDate>Mon, 23 Nov 2026 16:07:55 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -150,20 +164,6 @@ Existing settings, saved word replacements, models, and permissions are preserve
 Your existing settings, replacements, and iCloud sync choice are preserved.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.25/Say-Halo-0.8.25-build-112.zip" length="15715803" type="application/octet-stream" sparkle:edSignature="gnl7w6SkqeyJU9+LHBgrIPoFM/Osd6+C3VrshWcRTlzGofFfO221fZsvldPfGGrv8TQWJuabkpN8dwyrWXAGAA=="/>
-        </item>
-        <item>
-            <title>0.8.24</title>
-            <pubDate>Wed, 14 Oct 2026 12:26:08 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>111</sparkle:version>
-            <sparkle:shortVersionString>0.8.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.24
-
-- Find word replacement sync in **Settings → iCloud Sync**, near the top of Settings.
-- Your existing sync choice and word replacements are preserved when updating.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.24/Say-Halo-0.8.24-build-111.zip" length="15658350" type="application/octet-stream" sparkle:edSignature="EqDfcamYSdxiNJHaf0xayiHwRQQKoJCJ+VfnCMCxS1zJGPJ2dzDYLmphOVl9jWKpzIVO4tfuLCJHBCidGUt0BA=="/>
         </item>
     </channel>
 </rss>
