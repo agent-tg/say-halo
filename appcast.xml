@@ -3,6 +3,19 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.36</title>
+            <pubDate>Mon, 23 Nov 2026 17:18:23 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>129</sparkle:version>
+            <sparkle:shortVersionString>0.8.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.36
+
+- Your shortcut key now keeps working while another app has secure keyboard entry on, such as a password field in your browser. Before, the key did nothing until you clicked out of that field.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.36/Say-Halo-0.8.36-build-129.zip" length="15999188" type="application/octet-stream" sparkle:edSignature="x7IHLNwG0p8e9RE6h0jytGmZQZgR3ObQ3vsuT5IJoI7110LIZV88PXM6taMnSeuUv2UbHNg+fJ/lFjEtmMuRDQ=="/>
+        </item>
+        <item>
             <title>0.8.35</title>
             <pubDate>Mon, 23 Nov 2026 16:44:08 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -147,23 +160,6 @@ Existing settings, saved word replacements, models, and permissions are preserve
 Existing settings, saved word replacements, models, and permissions are preserved.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.27/Say-Halo-0.8.27-build-120.zip" length="15820099" type="application/octet-stream" sparkle:edSignature="0mUHHPCP3TeEKwtBo1dFIzdGFNeXr38c7+ppT0HmjiW2AriyP6D5ikS2HCsEMi97SRy1ZXy2cv1w3hAOFG6hCQ=="/>
-        </item>
-        <item>
-            <title>0.8.25</title>
-            <pubDate>Tue, 20 Oct 2026 13:10:20 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>112</sparkle:version>
-            <sparkle:shortVersionString>0.8.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.25
-
-- Choose **Add Word Replacement…** from the menu bar, enter **Heard** and **Replace with**, and save your preferred spelling for future dictation.
-- Assign an optional global shortcut in **Settings → Word Replacements** to open quick entry from any app.
-- Saving an existing match updates and enables its saved replacement.
-
-Your existing settings, replacements, and iCloud sync choice are preserved.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.25/Say-Halo-0.8.25-build-112.zip" length="15715803" type="application/octet-stream" sparkle:edSignature="gnl7w6SkqeyJU9+LHBgrIPoFM/Osd6+C3VrshWcRTlzGofFfO221fZsvldPfGGrv8TQWJuabkpN8dwyrWXAGAA=="/>
         </item>
     </channel>
 </rss>
