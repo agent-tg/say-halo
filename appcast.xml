@@ -3,6 +3,19 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.38</title>
+            <pubDate>Mon, 23 Nov 2026 18:48:41 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>131</sparkle:version>
+            <sparkle:shortVersionString>0.8.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.38
+
+- Say Halo no longer shows "No speech heard" after a dictation with no words. It only warns you when your microphone sent no sound at all.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.38/Say-Halo-0.8.38-build-131.zip" length="16008249" type="application/octet-stream" sparkle:edSignature="gChL+wjJYx121SQt4IlGI9KiLwL9cUEp6sWFVgInUNoyx+fWWFBjN16GttVtFil58NgEiqUDVWE5DQ+9b8PZDg=="/>
+        </item>
+        <item>
             <title>0.8.37</title>
             <pubDate>Mon, 23 Nov 2026 17:43:44 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -136,24 +149,6 @@
 Existing settings, saved word replacements, models, and permissions are preserved. You can turn automatic updates off again in Settings.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.29/Say-Halo-0.8.29-build-122.zip" length="15860608" type="application/octet-stream" sparkle:edSignature="NiDTMHgZiBMv3w2oJbek2Ocxpf08+4SKX/unLuH/wwjOPotmzZuamwjM6fO/XRpVEwNeOKgDfRAQuZtYBvZkBw=="/>
-        </item>
-        <item>
-            <title>0.8.28</title>
-            <pubDate>Tue, 27 Oct 2026 12:22:38 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>121</sparkle:version>
-            <sparkle:shortVersionString>0.8.28</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.28
-
-- Fixes the microphone getting stuck after screen sharing or switching audio devices. Say Halo no longer sits at "Warming up…" or "Mic stopped" until you quit and reopen it.
-- If the microphone stops responding, Say Halo replaces it with a fresh connection within a few seconds. Reconnect works again instead of doing nothing.
-- A microphone that looks on but sends no sound is now detected and rebuilt before your next dictation.
-- As a last resort, Say Halo quietly restarts itself in the menu bar, after any dictation in progress finishes.
-
-Existing settings, saved word replacements, models, and permissions are preserved.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.28/Say-Halo-0.8.28-build-121.zip" length="15856596" type="application/octet-stream" sparkle:edSignature="8sGFa5nIg8hGRb/cQ3xyR9zQ0Q/Suf4DBCEO7bD81xXq+slALHy23f/FCb0opwHO6NQ1i/vr2MauC/YzQSYUCA=="/>
         </item>
     </channel>
 </rss>
