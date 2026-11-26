@@ -3,6 +3,22 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.44</title>
+            <pubDate>Thu, 26 Nov 2026 06:19:42 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>137</sparkle:version>
+            <sparkle:shortVersionString>0.8.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.44
+
+- Pressing your shortcut while the last dictation is still turning into text starts a new one. The first one still pastes.
+- Escape cancels only while you are recording. Once you stop, your words always arrive.
+- Quit and Update wait for a dictation in progress to finish and paste first.
+- Turning off Save transcripts asks before deleting the ones you have, and you can keep them. Lowering how many to keep asks before deleting old ones.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.44/Say-Halo-0.8.44-build-137.zip" length="16300287" type="application/octet-stream" sparkle:edSignature="e2/LLU14XsMNUp0KzbAC8b9hnNOLsCQmmBpL3yLOrPgoBPsTm0YM4TiNNqsA5SV45ZKspzmk01tmHsPDucTmAw=="/>
+        </item>
+        <item>
             <title>0.8.43</title>
             <pubDate>Thu, 26 Nov 2026 05:43:40 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -139,21 +155,6 @@
 - Holding the shortcut key no longer risks stopping and restarting a recording.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.35/Say-Halo-0.8.35-build-128.zip" length="15983761" type="application/octet-stream" sparkle:edSignature="mR/LqBJVxpuTJnGYIbkdHttxdlRpOFSiBxNFT9mkpsQfvhgGvRl8AFOu6MDjRVXSMV5mTWAPR2jZ2BV58w2SBw=="/>
-        </item>
-        <item>
-            <title>0.8.34</title>
-            <pubDate>Mon, 23 Nov 2026 16:07:55 -0600</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>127</sparkle:version>
-            <sparkle:shortVersionString>0.8.34</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.34
-
-- If a dictation comes back with no words, the menu bar now says "No speech heard" instead of doing nothing.
-- If the microphone was silent, it says "Mic was silent. Check your input."
-- Say Halo keeps the audio from your last 10 empty dictations on your Mac so problems can be diagnosed.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.34/Say-Halo-0.8.34-build-127.zip" length="15982110" type="application/octet-stream" sparkle:edSignature="1n3/TfrcKcYjIX8gFBlqfN094l7CfoCrICup+eSBhR2Uy3X76bm0A6oPiIe5iQHoGa5YsfFo7KNHChHhusI7DQ=="/>
         </item>
     </channel>
 </rss>
