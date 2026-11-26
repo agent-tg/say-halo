@@ -3,6 +3,24 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.43</title>
+            <pubDate>Thu, 26 Nov 2026 05:43:40 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>136</sparkle:version>
+            <sparkle:shortVersionString>0.8.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.43
+
+- A dictation is no longer lost when saving it to Transcripts fails: the text is pasted first.
+- If the microphone reconnects mid-recording, the words from before the reconnect are kept.
+- A stuck transcription now stops with a message and keeps the recording. The menu bar says Transcribing instead of Warming up.
+- Two quick dictations in a row put back your own clipboard, not the first dictation.
+- One bad setting no longer resets the rest, and your Replace rules are kept.
+- Copy last transcript works when saving transcripts is off.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.43/Say-Halo-0.8.43-build-136.zip" length="16184885" type="application/octet-stream" sparkle:edSignature="0ilvozMB+6sT/FSXxYx4Qq6ZpBveBR/rwfSP2FRQrvY6JZTyo9QZDnpAIGxcjoQvLC7So9+ia9WKaiXcK4KUAQ=="/>
+        </item>
+        <item>
             <title>0.8.42</title>
             <pubDate>Thu, 26 Nov 2026 01:19:15 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -136,24 +154,6 @@
 - Say Halo keeps the audio from your last 10 empty dictations on your Mac so problems can be diagnosed.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.34/Say-Halo-0.8.34-build-127.zip" length="15982110" type="application/octet-stream" sparkle:edSignature="1n3/TfrcKcYjIX8gFBlqfN094l7CfoCrICup+eSBhR2Uy3X76bm0A6oPiIe5iQHoGa5YsfFo7KNHChHhusI7DQ=="/>
-        </item>
-        <item>
-            <title>0.8.33</title>
-            <pubDate>Wed, 18 Nov 2026 02:41:24 -0600</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>126</sparkle:version>
-            <sparkle:shortVersionString>0.8.33</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.33
-
-- The first time you open Say Halo, Setup walks you through one step at a time.
-- Input Monitoring is no longer required.
-- Until Accessibility is turned on, your dictation is copied to the clipboard and a "Copied" notice tells you so. Paste it wherever you need it.
-- Settings now has four pages: General, History, Replace and Setup.
-- The Replace list shows your newest replacements first, and its controls stay in reach while you scroll.
-- Shortcuts show key names, like "⌥ Option", instead of symbols alone.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.33/Say-Halo-0.8.33-build-126.zip" length="15943923" type="application/octet-stream" sparkle:edSignature="OhAeOVGe53+H9gkcZpiR7sHt05w4ehZlLfAU5jVKUop/pOnvURdjEsQxAmpVo974ZUde+yMIl9J6m7T3ulUDCQ=="/>
         </item>
     </channel>
 </rss>
