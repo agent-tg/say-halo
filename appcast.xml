@@ -3,6 +3,24 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.42</title>
+            <pubDate>Thu, 26 Nov 2026 01:19:15 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>135</sparkle:version>
+            <sparkle:shortVersionString>0.8.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.42
+
+- Settings: the version and Check for Updates row is easier to read, and the changelog moved to the bottom beside Acknowledgements.
+- The volume slider shows only when Sounds is on.
+- Recommended options are labelled, and new installs start with them on.
+- Transcripts: the date buttons match the rest of the app.
+- Replace: the formatting switches sit beside the test box, so your rules start higher on the page.
+- Onboarding: the health check rows are numbered.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.42/Say-Halo-0.8.42-build-135.zip" length="16086235" type="application/octet-stream" sparkle:edSignature="dHzMqdfQ4ZfWO10djs2+QaSIDUoLd5FQDN4k1qghpejR25oksa/De5TryVzwMscm3f0ap7ku77ZpVDUEGsBRAg=="/>
+        </item>
+        <item>
             <title>0.8.41</title>
             <pubDate>Thu, 26 Nov 2026 00:48:42 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -136,19 +154,6 @@
 - Shortcuts show key names, like "⌥ Option", instead of symbols alone.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.33/Say-Halo-0.8.33-build-126.zip" length="15943923" type="application/octet-stream" sparkle:edSignature="OhAeOVGe53+H9gkcZpiR7sHt05w4ehZlLfAU5jVKUop/pOnvURdjEsQxAmpVo974ZUde+yMIl9J6m7T3ulUDCQ=="/>
-        </item>
-        <item>
-            <title>0.8.32</title>
-            <pubDate>Mon, 16 Nov 2026 09:59:40 -0600</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>125</sparkle:version>
-            <sparkle:shortVersionString>0.8.32</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.32
-
-- Pause Media works with browsers again. SoundCloud, YouTube and other Chrome or Safari audio now pauses while you record and resumes when you stop, instead of only being muted.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.32/Say-Halo-0.8.32-build-125.zip" length="15895451" type="application/octet-stream" sparkle:edSignature="BY7mhv7OGoTtEdGvo0Mm3Le1YhVWQ0iSu5TxmhINUrNo2tj11BU506OXGQanvmk4JuLThUWV8WJa/QvhnrEuBQ=="/>
         </item>
     </channel>
 </rss>
