@@ -3,6 +3,19 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.39</title>
+            <pubDate>Wed, 25 Nov 2026 23:19:25 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>132</sparkle:version>
+            <sparkle:shortVersionString>0.8.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.39
+
+- Copying your last transcript from the menu now shows a green "Copied" check, and the row lights up blue when you point at it.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.39/Say-Halo-0.8.39-build-132.zip" length="16022755" type="application/octet-stream" sparkle:edSignature="azC+pItBNYYLBGzSNmHC2eNF2gtEC55w4L4Mn1jfcCcIj9eB+sjV65so+2ysCGvZgjS8fg3BoWa5FvJ0zPx0Bw=="/>
+        </item>
+        <item>
             <title>0.8.38</title>
             <pubDate>Mon, 23 Nov 2026 18:48:41 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -132,23 +145,6 @@
 
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.30/Say-Halo-0.8.30-build-123.zip" length="15866796" type="application/octet-stream" sparkle:edSignature="fVGh7Msgz235Nkw4hzPBrL60fVAEOlE+tH04ysWwiPuEv14yifsb4rCuE8e05fiecvhFBbwf7aD+j0giNomXAA=="/>
-        </item>
-        <item>
-            <title>0.8.29</title>
-            <pubDate>Tue, 27 Oct 2026 12:53:57 -0500</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>122</sparkle:version>
-            <sparkle:shortVersionString>0.8.29</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.29
-
-- New **Automatically check for updates** switch in Settings → General. It shows whether Say Halo keeps itself up to date.
-- Automatic updates are turned back on for every install. Some Macs had them switched off with no way to see it, so new versions never showed up on their own.
-- Say Halo now checks every 4 hours instead of once a day. New versions download in the background, and an Install row appears in the Say Halo menu when one is ready.
-
-Existing settings, saved word replacements, models, and permissions are preserved. You can turn automatic updates off again in Settings.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.29/Say-Halo-0.8.29-build-122.zip" length="15860608" type="application/octet-stream" sparkle:edSignature="NiDTMHgZiBMv3w2oJbek2Ocxpf08+4SKX/unLuH/wwjOPotmzZuamwjM6fO/XRpVEwNeOKgDfRAQuZtYBvZkBw=="/>
         </item>
     </channel>
 </rss>
