@@ -3,6 +3,23 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.40</title>
+            <pubDate>Thu, 26 Nov 2026 00:10:14 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>133</sparkle:version>
+            <sparkle:shortVersionString>0.8.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.40
+
+- The settings window is simpler. The four pages are now Settings, Transcripts, Replace and Onboarding.
+- Settings shows everyday controls first. Fine-tuning is under Advanced.
+- Transcripts has Today, 7 days, 30 days and All, plus search.
+- Replace has search, sorting and examples for each formatting switch.
+- Onboarding shows every step without opening anything. Once you finish, it becomes a short health check.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.40/Say-Halo-0.8.40-build-133.zip" length="16029587" type="application/octet-stream" sparkle:edSignature="spIusXptutXEwkK59fmwMQPi9peJhEk4HHZZ2n7Xeonvrcy3A9FV2o9Cm9Ccm3EOZHW/jls2pc8Rd+F+a468BQ=="/>
+        </item>
+        <item>
             <title>0.8.39</title>
             <pubDate>Wed, 25 Nov 2026 23:19:25 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -127,24 +144,6 @@
 - Fully silence headphones and other outputs while recording when Say Halo mutes instead of pausing. Your earlier mute setting and volume come back when you stop.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.31/Say-Halo-0.8.31-build-124.zip" length="15867840" type="application/octet-stream" sparkle:edSignature="63AO30J/JFKrFZBrnAPb7PT7P/+CSlYCiVJeviWJ9Xe7YTHz/wfctQN35iUzJimORB35vREXO7J3YVm3wzrPDA=="/>
-        </item>
-        <item>
-            <title>0.8.30</title>
-            <pubDate>Thu, 12 Nov 2026 15:50:54 -0600</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>123</sparkle:version>
-            <sparkle:shortVersionString>0.8.30</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Say Halo 0.8.30
-
-- Honor saved word replacements such as “11 Labs” → “Eleven Labs,” including when speech recognition spells out the number.
-- Keep paused browser videos paused when dictation ends.
-- Temporarily mute volume when active playback cannot be confirmed, including during browser calls.
-- Avoid reopening a closed music player during recording cleanup.
-- Preserve your existing recording and audio settings.
-
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.30/Say-Halo-0.8.30-build-123.zip" length="15866796" type="application/octet-stream" sparkle:edSignature="fVGh7Msgz235Nkw4hzPBrL60fVAEOlE+tH04ysWwiPuEv14yifsb4rCuE8e05fiecvhFBbwf7aD+j0giNomXAA=="/>
         </item>
     </channel>
 </rss>
