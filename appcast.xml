@@ -3,6 +3,24 @@
     <channel>
         <title>Say Halo</title>
         <item>
+            <title>0.8.41</title>
+            <pubDate>Thu, 26 Nov 2026 00:48:42 -0600</pubDate>
+            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
+            <sparkle:version>134</sparkle:version>
+            <sparkle:shortVersionString>0.8.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.41
+
+- The sidebar now reads Settings, Replace, Transcripts, with Onboarding at the bottom.
+- Settings shows your version and Check for Updates at the top. The Advanced section is gone; each setting now sits with the section it belongs to.
+- Shortcuts show as key caps with one Change button.
+- Transcripts: search moved to the left, and Delete all moved into Settings.
+- Onboarding has a new step that helps you find Say Halo in your menu bar.
+- Added an Acknowledgements page in Settings.
+]]></description>
+            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.41/Say-Halo-0.8.41-build-134.zip" length="16075871" type="application/octet-stream" sparkle:edSignature="qwB9mISvfF90fL7YoY7c1pStlR2XRgVytragMP4meyYw6BOPFy+ToCwpEKGmMYpCqxlqvu5ZQCIYaouwJKc7BA=="/>
+        </item>
+        <item>
             <title>0.8.40</title>
             <pubDate>Thu, 26 Nov 2026 00:10:14 -0600</pubDate>
             <link>https://github.com/agent-tg/say-halo/releases/latest</link>
@@ -131,19 +149,6 @@
 - Pause Media works with browsers again. SoundCloud, YouTube and other Chrome or Safari audio now pauses while you record and resumes when you stop, instead of only being muted.
 ]]></description>
             <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.32/Say-Halo-0.8.32-build-125.zip" length="15895451" type="application/octet-stream" sparkle:edSignature="BY7mhv7OGoTtEdGvo0Mm3Le1YhVWQ0iSu5TxmhINUrNo2tj11BU506OXGQanvmk4JuLThUWV8WJa/QvhnrEuBQ=="/>
-        </item>
-        <item>
-            <title>0.8.31</title>
-            <pubDate>Sun, 15 Nov 2026 13:23:15 -0600</pubDate>
-            <link>https://github.com/agent-tg/say-halo/releases/latest</link>
-            <sparkle:version>124</sparkle:version>
-            <sparkle:shortVersionString>0.8.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Say Halo 0.8.31
-
-- Fully silence headphones and other outputs while recording when Say Halo mutes instead of pausing. Your earlier mute setting and volume come back when you stop.
-]]></description>
-            <enclosure url="https://github.com/agent-tg/say-halo/releases/download/v0.8.31/Say-Halo-0.8.31-build-124.zip" length="15867840" type="application/octet-stream" sparkle:edSignature="63AO30J/JFKrFZBrnAPb7PT7P/+CSlYCiVJeviWJ9Xe7YTHz/wfctQN35iUzJimORB35vREXO7J3YVm3wzrPDA=="/>
         </item>
     </channel>
 </rss>
